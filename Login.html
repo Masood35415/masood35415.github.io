@@ -1,0 +1,50 @@
+<html>
+<head>
+<title> Login </title>
+<link rel="stylesheet" href="dist\css\bootstrap.min.css">
+<link rel="stylesheet" href="css\style.css">
+<link rel="stylesheet" href="dist\font-awesome\css\font-awesome.min.css">
+
+</head>
+<script>
+function check(form)
+{
+if(form.userid.value == "ahmedmdmasood317@gmail.com" && form.pswrd.value == "27014")
+{
+window.open('DarulHuda.html')
+}
+
+else
+{
+alert("Error Username or Password doesn't match")
+}
+}
+</script>
+<body>
+<div class="right">
+<img id="img6" src="dhbanner.jpg">
+</div>
+
+<div class="left">
+<h2> Welcome to DHIU Login Page </h2>
+<br>
+<img id="logo" src="logo.JFIF">
+<br>
+<form id="user" method="post" name="login">
+<input name="userid" type="text" class="form-control" placeholder="Username" id="input1">
+<i id="icon1" class="fa fa-user fa-lg"></i>
+<input name="pswrd" type="Password" class="form-control" placeholder="Password" id="input2">
+<i id="icon2" class="fa fa-lock fa-lg"></i>
+<button class="btn2" onclick="check (this.form)" id="submit"> LOGIN </button>
+
+</form>
+<i id="icon3" class="fa fa-YouTube-play fa-lg"></i>
+<i id="icon4" class="fa fa-facebook-official fa-lg"></i>
+<i id="icon5" class="fa fa-twitter-square fa-lg"></i>
+<i id="icon6" class="fa fa-instagram fa-lg"></i>
+<br>
+<font id="power"> Powered by <span id="by"> Datastone Solutions</span></font>
+<img id="img7" src="schola.jpg">
+</div>
+</body>
+</html>
